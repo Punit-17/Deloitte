@@ -1,0 +1,54 @@
+<html>
+    <head>
+
+    </head>
+    <body> 
+        <!-- <P class="c1">hi</P>
+        <p class="c1">hey</p> -->
+        <!-- <h1 id="out"> </h1> -->
+        <input type="text" id="id1"> <!--value="you're a beginner">-->
+        <input type="text" id="id1"> <!--value="you're a expert">-->
+        <input type="button" id="btn" value="click">
+        <p>hello</p>
+        <p>hello</p>
+        <p>hello</p>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // function(){
+        //     $("p").text("hello")
+        //     $("p").css({"color":"blue","backgroundColor":"red"})
+        //     $("p").attr("title","abc")
+        $("input").focus
+        (
+            function()
+            {
+            // $("#id1").css($("#id1").val("you're an expert"));
+            $(this).css({"backgroundColor":"dodgerblue"});
+            }
+        );
+
+        $("input").blur
+        (
+            function()
+            {
+            // $("#id1").css($("#id1").val("you're an expert"));
+            $(this).css({"backgroundColor":"white"});
+            }
+        );
+
+        $("p").click
+        (
+            function()
+            {
+                $(this).hide();
+            }
+        );
+    }
+    )
+    
+</script>
+ </body>
+    </html>
